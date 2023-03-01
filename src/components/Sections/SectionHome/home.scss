@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Coda';
+    src: url('../../../assets/fonts/Coda-Regular.ttf');
+}
+
+#home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background-image: url('images/png/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+
+    h1 {
+        font-family: 'Coda';
+        font-weight: 400;
+        font-size: 3.4em;
+        line-height: 91px;
+        text-align: center;
+
+    }
+
+    a {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #977CED;
+    }
+}

@@ -1,0 +1,101 @@
+#projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: white;
+    
+    .projects {
+        display: grid;
+        justify-content: center;
+        row-gap: 20px;
+        padding: 20px;
+
+        .project {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+
+            width: 80vw;
+            column-gap: 40px;
+            border-radius: 5px;
+            
+            padding: 80px;
+            background-color: #E5E7EA;
+
+            .tools {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                width: 400px;
+            }
+        }
+    
+        .description-project {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            row-gap: 10px;
+            padding: 20px;
+
+            .border {
+                background-color: #977CED;
+            }
+            
+            img {
+                transition: .2s;
+    
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+    
+            h1 {
+                color: #120736;
+                font-size: 24px;
+            }
+    
+            h2 {
+                font-size: 16px;
+                text-transform: uppercase;
+                color: #977CED;
+            }
+    
+            h3 {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 20px;
+                color: #120736;
+            }
+            
+            p {
+                width: 38vw;
+                font-style: normal;
+                font-size: 16px;
+                line-height: 24px;
+                color: #24292E;
+                flex: none;
+                flex-grow: 0;
+            }
+    
+            .tools {
+                display: flex;
+                justify-content: center;
+                column-gap: 15px;
+            }
+        }
+    
+        img {
+            transition: .2s all;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}

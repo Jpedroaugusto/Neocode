@@ -1,0 +1,68 @@
+#team {
+    padding-bottom: 20px;
+    background-color: #24292E;
+    
+    .glide {
+        padding: 30px;
+        
+        border-top: 1px solid #e5e7ea33;
+        border-bottom: 1px solid #e5e7ea33;
+        
+        .glide__track {
+            
+            .glide__slides {
+                cursor: grab;
+                overflow: visible;
+                
+                .glide__slide {
+                    filter: blur(6px);
+                    opacity: .7;
+                    transition: .3s linear all;
+                    
+                    &--active {
+                        opacity: 1;
+                        filter: none;
+                        transform: scale(1.1);
+                        
+                        .member {
+                            box-shadow: black 0px 0px 20px;
+                        }
+                    }
+                    
+                    .infos {
+                        padding: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        align-items: center;
+                        row-gap: 4px;
+                        
+                        .sociais {
+                            display: flex;
+                        }
+                        
+                        .member{
+                            width: 300px;
+                            height: 460px;
+                        }
+                        h1 {
+                            color: #aa96f5;
+                            font-weight: 500;
+                            line-height: 40px;
+                        }
+                        
+                        h2 {
+                            color: #E5E7EA;
+                            font-weight: 300;
+                            font-size: 20px;
+                            line-height: 15px;
+                            
+                            text-align: center;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
