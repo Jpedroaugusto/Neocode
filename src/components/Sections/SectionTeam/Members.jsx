@@ -20,7 +20,7 @@ const members = [
         ],
     },
     {
-        name: "Ilan_Negreiros", 
+        name: "Felipe ", 
         funcao: "Gestor",
         image: "images/jpg/members/Felipe.jpeg",
 

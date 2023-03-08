@@ -5,10 +5,10 @@ import { SectionContact } from '../Sections/SectionContact/SectionContact';
 import { SectionProjects } from '../Sections/SectionProjects/SectionProjects';
 import { SectionHome } from '../Sections/SectionHome/SectionHome';
 
-export function Main() {
+export function MainHome() {
     return (
         <main>
-            <SectionHome/>
+            <SectionHome background="home"/>
             <SectionNeocode/>
             <SectionTeam/>
             <SectionServices/>

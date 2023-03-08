@@ -25,14 +25,45 @@ header.sticky {
     box-shadow: 0px 0px 20px #24292e;
 }
 
+.search-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        background: none;
+        border: none;
+    }
+    
+    #search-field:focus {
+        border: none;
+    }
+
+    #search-field::placeholder {
+        color: #fff;
+    }
+
+    #search-field {
+        width: 200px;
+        background: transparent;
+        padding: 10px;
+        border: white;
+        border-bottom: 1px solid white;
+        color: #fff;
+        font-family: 'Montserrat';
+    }
+}
+
+
+
 nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     text-transform: uppercase;
 
 }
+
 
 .nav-list {
     width: 100%;
@@ -41,43 +72,21 @@ nav {
     align-items: center;
 
     li {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+
         letter-spacing: 3px;
     }
 }
 
-.mobile-menu {
-    display: none;
-    cursor: pointer;
-    
-    div {
-        width: 32px;
-        height: 2px;
-        background-color: #fff;
-        margin: 8px;
-        transition: 0.2s all;
-    }
-}
-
-.logo-mobile {
-    display: none;
-}
-
 @media (max-width: 899px) {
-    
-    .logo-mobile {
-        display: block;
-    }
-    
-    .logo {
-        display: none;
-    }
-    
     .nav-list {
         width: 50vw;
         height: 90vh;
         
         position: absolute;
-        top: 12vh;
+        top: 12.6vh;
         right: 0px;
         
         background: linear-gradient(to left, #1F2032,#24292e);
@@ -90,29 +99,7 @@ nav {
         li {
             opacity: 0;
         }
-    }
-    
-    
-    .mobile-menu {
-        display: block;
-        transition: 0.2s all;
-    }
-    
-}
-
-.mobile-menu.active {
-    .line1 {
-        transform: rotate(-45deg) translate(-8px, 8px);
-    }
-    
-    .line2 {
-        opacity: 0;
-    }
-    
-    .line3 {
-        transform: rotate(45deg) translate(-5px, -7px);
-    }
-    
+    }  
 }
 
 .nav-list.active {

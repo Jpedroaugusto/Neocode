@@ -15,10 +15,10 @@ export function TeamCarousel() {
             3200: {
                 perView: 3
             },
-            1000: {
+            1100: {
                 perView: 2,
             },
-            600: {
+            700: {
                 perView: 1
             }
         }
