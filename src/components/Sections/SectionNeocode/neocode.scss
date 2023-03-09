@@ -18,8 +18,8 @@
             padding: 30px 15px;
             gap: 10px;
 
-            width: 323px;
-            height: 333px;
+            width: 540px;
+            height: 540px;
             border: 1px solid #977CED;
             border-radius: 5px;
 
@@ -28,7 +28,7 @@
             &:hover {
                 cursor: pointer;
                 box-shadow: #977CED 0px 0px 12px;
-                transform: scale(1.1);
+                transform: scale(1.02);
             }
         
             
@@ -51,7 +51,7 @@
         p {
             font-style: normal;
             font-weight: 400;
-            font-size: 14px;
+            font-size: 15px;
             line-height: 20px;
             text-align: center;
                 

@@ -14,7 +14,7 @@ export function SectionProjects() {
                 
                 subtitle="projetos"
                 title="O que já desenvolvemos"
-                p="Duis suscipit nunc non eros tempus, eget tincidunt erat varius. Pellentesque nec eros efficitur, pretium nunc et, tempus mi. Suspendisse pharetra mi eu ipsum elementum."
+                p=""
             />
             
             <Projects/>

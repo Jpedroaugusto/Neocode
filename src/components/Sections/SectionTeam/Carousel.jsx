@@ -39,15 +39,16 @@ export function TeamCarousel() {
                                     <img className='member' src={member.image}/>
                                     <h1>{member.name.replace('_',' ')}</h1>
                                     <h2>{member.funcao}</h2>
+                                    <br/>
                                     <Border color={'#fff'}/>
 
-                                    <div className='sociais'>
+                                    {/* <div className='sociais'>
                                         { 
                                             member.sociais.map(social => (
                                                 <a href={social.link} target="_blank"><img className='ico--social' src={social.svg}/></a>
                                             ))
                                         }
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         ))

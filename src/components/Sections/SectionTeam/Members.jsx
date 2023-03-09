@@ -3,8 +3,8 @@ const likedin = "images/svg/sociais/linkedin.svg";
 
 const members = [
     {
-        name: "Ilan_Negreiros", 
-        funcao: "Gestor",
+        name: "Ilan Negreiros", 
+        funcao: "Co-Founder | Product Owner",
         image: "images/jpg/members/Ilan.jpeg",
 
         sociais: [
@@ -20,8 +20,8 @@ const members = [
         ],
     },
     {
-        name: "Felipe ", 
-        funcao: "Gestor",
+        name: "Felipe Borges", 
+        funcao: "Co-Founder | Back-End Developer",
         image: "images/jpg/members/Felipe.jpeg",
 
         sociais: [
@@ -37,8 +37,93 @@ const members = [
         ],
     },
     {
-        name: "Natan", 
-        funcao: "Gestor",
+        name: "Natanael de Lima", 
+        funcao: "Back-End Developer",
+        image: "images/jpg/members/Natanael.jpeg",
+
+        sociais: [
+            {
+                svg: instagram,
+                link: ""
+            },
+            
+            {
+                svg: likedin,
+                link: ""
+            },
+        ],
+    },
+    {
+        name: "Vitor Costa", 
+        funcao: "Mobile Developer",
+        image: "images/jpg/members/Natanael.jpeg",
+
+        sociais: [
+            {
+                svg: instagram,
+                link: ""
+            },
+            
+            {
+                svg: likedin,
+                link: ""
+            },
+        ],
+    },
+    {
+        name: "Ivo Penha", 
+        funcao: "Front-End Developer",
+        image: "images/jpg/members/Yvo.png",
+
+        sociais: [
+            {
+                svg: instagram,
+                link: ""
+            },
+            
+            {
+                svg: likedin,
+                link: ""
+            },
+        ],
+    },
+    {
+        name: "João Pedro Augusto", 
+        funcao: "Front-End Developer",
+        image: "images/jpg/members/Jp.jpeg",
+
+        sociais: [
+            {
+                svg: instagram,
+                link: ""
+            },
+            
+            {
+                svg: likedin,
+                link: ""
+            },
+        ],
+    },
+    {
+        name: "Renato Figueiredo", 
+        funcao: "UI-UX Designer | Front-End Developer",
+        image: "images/jpg/members/Renato.jpg",
+
+        sociais: [
+            {
+                svg: instagram,
+                link: ""
+            },
+            
+            {
+                svg: likedin,
+                link: ""
+            },
+        ],
+    },
+    {
+        name: "Anderson Lourenço", 
+        funcao: "UI-UX Designer",
         image: "images/jpg/members/Natanael.jpeg",
 
         sociais: [

@@ -18,11 +18,33 @@ header {
     
     padding: 40px;
     transition: .3s linear;
-}
 
-header.sticky {
-    background: #1F2032;
-    box-shadow: 0px 0px 20px #24292e;
+    &.sticky {
+        background: #1F2032;
+        box-shadow: 0px 0px 20px #24292e;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        text-transform: uppercase;
+        
+        .nav-list {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        
+            li {
+                display: flex;
+                flex-direction: row;
+                column-gap: 10px;
+        
+                letter-spacing: 3px;
+            }
+        }
+    }
 }
 
 .search-item {
@@ -56,37 +78,16 @@ header.sticky {
 
 
 
-nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    text-transform: uppercase;
-
-}
 
 
-.nav-list {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    li {
-        display: flex;
-        flex-direction: row;
-        column-gap: 10px;
-
-        letter-spacing: 3px;
-    }
-}
 
 @media (max-width: 899px) {
     .nav-list {
         width: 50vw;
-        height: 90vh;
+        height: 100vh;
         
         position: absolute;
-        top: 12.6vh;
+        top: 12vh;
         right: 0px;
         
         background: linear-gradient(to left, #1F2032,#24292e);

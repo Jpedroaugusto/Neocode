@@ -10,10 +10,11 @@ export function SectionContact() {
           colorh1="#D4C9F8"
           colorh2="#977CED"
           colorText="#E5E7EA"
+          font-size="20"
           
           subtitle="contato"
           title="Fale com a gente"
-          p="Duis suscipit nunc non eros tempus, eget tincidunt erat varius. Pellentesque nec eros efficitur, pretium nunc et, tempus mi. Suspendisse pharetra mi eu ipsum elementum."
+          p="Entre em contato conosco agora: preencha o formulário abaixo para falar diretamente com nossa equipe."
           />
           
           <div className="box">

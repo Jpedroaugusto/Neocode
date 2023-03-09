@@ -13,26 +13,33 @@ export function SectionNeocode() {
                 
                 title="O que é a NeoCode" 
                 subtitle="sobre" 
-                p="Duis suscipit nunc non eros tempus, eget tincidunt erat varius. Pellentesque nec eros efficitur, pretium nunc et, tempus mi. Suspendisse pharetra mi eu ipsum elementum."
+                p="Somos uma provedora de soluções de software personalizadas para diversas indústrias, incluindo saúde, finanças, varejo e manufatura. Com uma abordagem centrada no cliente e um compromisso com a inovação e qualidade, a empresa utiliza tecnologias emergentes, como inteligência artificial, aprendizado de máquina, blockchain e computação em nuvem para criar soluções personalizadas e eficazes. A transparência na comunicação e a ética nas operações também são valores fundamentais desta empresa. Promovendo o trabalho em equipe, colaboração e comunicação, a empresa busca oferecer soluções mais eficientes e melhores aos clientes. Em resumo, somos uma empresa inovadora e comprometida com a satisfação do cliente, com valores éticos e um foco na qualidade."
             />
 
             <div className="sobre">
                 <Card 
                 icon="Mission"
                 title="Nosso propósito"
-                p="Transformar as necessidades e potencialidades de pessoas, grupos, comunidades e organizações em projetos sociais sustentáveis, nas áreas de Saúde, Educação e Tecnologia para gerar autonomia e bem estar integral." 
+                p="Criar e fornecer soluções de software personalizadas para empresas de diversos setores, atendendo às suas necessidades específicas em aplicativos de desktop, aplicativos móveis, soluções de nuvem, sistemas de gerenciamento de banco de dados, software de análise de dados, sistemas de segurança cibernética e muito mais.
+                " 
                 />
 
                 <Card 
                 icon="Vision"
                 title="Nossa visão"
-                p="Transformar as necessidades e potencialidades de pessoas, grupos, comunidades e organizações em projetos sociais sustentáveis, nas áreas de Saúde, Educação e Tecnologia para gerar autonomia e bem estar integral."
+                p="Ser reconhecida como líder no desenvolvimento de soluções tecnológicas inovadoras que transformam a maneira como as empresas fazem negócios. Utilizamos as mais recentes tecnologias emergentes, como inteligência artificial, aprendizado de máquina, blockchain e computação em nuvem, para criar soluções personalizadas e eficazes para empresas de diversos setores, como saúde, finanças, varejo e manufatura."
                 />
 
                 <Card 
                 icon="Values"
                 title="Nosso valores"
-                p="Transformar as necessidades e potencialidades de pessoas, grupos, comunidades e organizações em projetos sociais sustentáveis, nas áreas de Saúde, Educação e Tecnologia para gerar autonomia e bem estar integral."
+                p="Inovação: Somos apaixonados por inovar e encontrar soluções criativas que resolvem problemas.
+                Qualidade: Estamos comprometidos em entregar produtos e serviços de alta qualidade que excedem as expectativas dos clientes.
+                Transparência: Somos 100% transparentes em nossa comunicação com os clientes, para que saibam exatamente o que estão recebendo e como estamos trabalhando para atender suas necessidades.
+                Ética: Agimos com integridade e ética em todas as nossas operações, respeitando os direitos e privacidade dos clientes, funcionários e parceiros.
+                Trabalho em equipe: Valorizamos o trabalho em equipe, promovemos a colaboração e a comunicação entre todos os membros da equipe para criar soluções melhores e mais eficientes. 
+                Foco no cliente: Estamos sempre focados em atender às necessidades dos clientes e fornecer soluções personalizadas e eficazes para seus problemas, garantindo sua satisfação e fidelidade.
+                Em cada projeto, em cada interação com nossos clientes, e em todas as nossas decisões, nossos valores norteiam nossas ações e refletem a cultura de nossa empresa."
                 />
             </div>
         </section>

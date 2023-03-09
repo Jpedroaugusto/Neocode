@@ -52,7 +52,6 @@ export default function Link({ type,link,legend,src,onClick }) {
                 <ul style={{display: 'flex', gap: '20px', alignItems: 'center'}}>
                    <li className="social"><a href=""><img width="22" src="images/svg/sociais/instagram.svg"/></a></li>
                    <li className="social"><a href=""><img width="22" src="images/svg/sociais/youtube.svg"/></a></li> 
-                   <li className="social"><a href=""><img width="22" src="images/svg/sociais/twitter.svg"/></a></li> 
                 </ul>
             </li>
         )

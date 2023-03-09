@@ -4,7 +4,6 @@
     
     .glide {
         padding: 30px;
-        
         border-top: 1px solid #e5e7ea33;
         border-bottom: 1px solid #e5e7ea33;
         
@@ -25,12 +24,14 @@
                         transform: scale(1.1);
                         
                         .member {
-                            box-shadow: black 0px 0px 20px;
+                            border-radius: 4px;
+                            background-size: cover;
+                            border: 2.3px solid #aa96f5;
                         }
                     }
                     
                     .infos {
-                        padding: 20px;
+                        padding: 30px;
                         display: flex;
                         flex-direction: column;
                         text-align: center;
@@ -42,8 +43,8 @@
                         }
                         
                         .member{
-                            width: 300px;
-                            height: 460px;
+                            width: 250px;
+                            height: 360px;
                         }
                         h1 {
                             color: #aa96f5;
@@ -55,7 +56,7 @@
                             color: #E5E7EA;
                             font-weight: 300;
                             font-size: 20px;
-                            line-height: 15px;
+                            line-height: 25px;
                             
                             text-align: center;
                             text-transform: uppercase;
