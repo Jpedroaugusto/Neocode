@@ -33,6 +33,12 @@ export function Projects() {
         }
     ];
 
+    
+    const openText = (i) => {
+        let txt = document.getElementById("p"+i);
+        txt.classList.toggle('active')
+    }
+
     return (
         <div className="projects">
             {
@@ -43,27 +49,30 @@ export function Projects() {
                             <h1>{project.name}</h1>
                             <h2>{project.theme}</h2>
                             <div>
-                                <Border color={'#977CED'}/>
+                                <Border width={100} color={'#977CED'}/>
                             </div>
-                            <div>
+                            <p id={`p${index}`} className="text">
                                 {project.p.map((p,i) => (
-                                    <div>
+                                    <p>
                                         <p key={i}>{p}</p>
-                                        <br/><br/>
-                                    </div>
+                                        <br/>
+                                    </p>
                                 ))}
-                            </div>
-                            <h3>Ferramentas</h3>
+                            </p>
+                            <button onClick={() => openText(index)} className="btn-toggle">Ver mais</button>
                             <div className="tools">
-                                {
-                                    project.tools.map((tool,index) => (
-                                        <img 
-                                        key={`image${index}`} 
-                                        width={50} 
-                                        src={tool}
-                                        />
-                                    ))
-                                }
+                                <h3>Ferramentas</h3>
+                                <div className="tools--icons"> 
+                                    {
+                                        project.tools.map((tool,index) => (
+                                            <img 
+                                            key={`image${index}`} 
+                                            width={50} 
+                                            src={tool}
+                                            />
+                                        ))
+                                    }
+                                </div>
                             </div>
                         </div>
                     </div>

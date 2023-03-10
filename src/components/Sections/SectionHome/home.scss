@@ -9,25 +9,44 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-
     background-size: cover;
     background-attachment: fixed;
-
+    
     h1 {
         font-family: 'Coda';
         font-weight: 400;
         font-size: 3.4em;
         line-height: 91px;
         text-align: center;
-
+        margin: 0;
     }
-
+    
     a {
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 20px;
         text-transform: uppercase;
-        color: #977CED;
+        color: #ffffff;
+    }
+    
+    @media screen and (max-width: 768px) {
+        h1 {
+            font-size: 2em;
+            line-height: 50px;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        h1 {
+            font-size: 1.6em;
+            line-height: 40px;
+        }
+    
+        a {
+            font-size: 14px;
+            line-height: 18px;
+        }
     }
 }
+

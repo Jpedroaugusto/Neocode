@@ -1,13 +1,11 @@
 import Glide from '@glidejs/glide';
-import React, { useEffect } from "react";
-import { motion } from 'framer-motion';
+import "@glidejs/glide/src/assets/sass/glide.core.scss";
 import { Border } from '../../Dialog/Border';
+import React, { useEffect } from "react";
 
 import members from './Members';
 
-import "@glidejs/glide/src/assets/sass/glide.core.scss";
-
-export function TeamCarousel() {
+export function Carousel() {
     const slider = new Glide('.glide', {
         type: 'carousel',
         focusAt: 'center',
@@ -24,14 +22,13 @@ export function TeamCarousel() {
         }
     });
 
-    useEffect(() => {
-        return () => slider.mount()
-    })
+    useEffect(() => { return () => slider.mount()
+    },[]);
 
     return (
         <div className="glide">
             <div className="glide__track" data-glide-el="track">
-                <motion.div whileTap={{ cursor: "grabbing"}} className="glide__slides">
+                <div className="glide__slides">
                     {
                         members.map(member => (
                             <div className='glide__slide'>
@@ -40,7 +37,7 @@ export function TeamCarousel() {
                                     <h1>{member.name.replace('_',' ')}</h1>
                                     <h2>{member.funcao}</h2>
                                     <br/>
-                                    <Border color={'#fff'}/>
+                                    <Border width={100} color={'#fff'}/>
 
                                     {/* <div className='sociais'>
                                         { 
@@ -53,7 +50,7 @@ export function TeamCarousel() {
                             </div>
                         ))
                     }
-                </motion.div>
+                </div>
             </div>
         </div>
     )

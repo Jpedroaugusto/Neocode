@@ -6,7 +6,7 @@ export function Card({icon, title, p}) {
             <span className='icon'><img src={`images/svg/${icon}Icon.svg`}/></span>
             <h2>{title}</h2>
             <div>
-                <Border color={'#977CED'}/>
+                <Border width={120} color={'#977CED'}/>
             </div>
             <p>{p}</p>
         </div>

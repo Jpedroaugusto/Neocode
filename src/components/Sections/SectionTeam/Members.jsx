@@ -5,7 +5,7 @@ const members = [
     {
         name: "Ilan Negreiros", 
         funcao: "Co-Founder | Product Owner",
-        image: "images/jpg/members/Ilan.jpeg",
+        image: "images/members/Ilan.jpeg",
 
         sociais: [
             {
@@ -22,7 +22,7 @@ const members = [
     {
         name: "Felipe Borges", 
         funcao: "Co-Founder | Back-End Developer",
-        image: "images/jpg/members/Felipe.jpeg",
+        image: "images/members/Felipe.jpeg",
 
         sociais: [
             {
@@ -39,7 +39,7 @@ const members = [
     {
         name: "Natanael de Lima", 
         funcao: "Back-End Developer",
-        image: "images/jpg/members/Natanael.jpeg",
+        image: "images/members/Natanael.jpeg",
 
         sociais: [
             {
@@ -56,7 +56,7 @@ const members = [
     {
         name: "Vitor Costa", 
         funcao: "Mobile Developer",
-        image: "images/jpg/members/Natanael.jpeg",
+        image: "images/members/Vitor.jpg",
 
         sociais: [
             {
@@ -73,7 +73,7 @@ const members = [
     {
         name: "Ivo Penha", 
         funcao: "Front-End Developer",
-        image: "images/jpg/members/Yvo.png",
+        image: "images/members/Yvo.png",
 
         sociais: [
             {
@@ -90,7 +90,7 @@ const members = [
     {
         name: "João Pedro Augusto", 
         funcao: "Front-End Developer",
-        image: "images/jpg/members/Jp.jpeg",
+        image: "images/members/Jp.jpeg",
 
         sociais: [
             {
@@ -107,7 +107,7 @@ const members = [
     {
         name: "Renato Figueiredo", 
         funcao: "UI-UX Designer | Front-End Developer",
-        image: "images/jpg/members/Renato.jpg",
+        image: "images/members/Renato.jpg",
 
         sociais: [
             {
@@ -124,7 +124,7 @@ const members = [
     {
         name: "Anderson Lourenço", 
         funcao: "UI-UX Designer",
-        image: "images/jpg/members/Natanael.jpeg",
+        image: "images/members/Anderson.jpeg",
 
         sociais: [
             {

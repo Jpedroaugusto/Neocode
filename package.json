@@ -20,9 +20,11 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.43.0",
     "react-icons": "^4.7.1",
+    "react-input-mask": "^2.0.4",
     "react-router-dom": "^6.6.2",
     "sass": "^1.57.1",
     "styled-components": "^5.3.6",
+    "sweetalert2": "^11.7.3",
     "yup": "^0.32.11"
   },
   "devDependencies": {

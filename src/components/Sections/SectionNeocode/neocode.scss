@@ -1,13 +1,13 @@
 #neocode {
-    
+    background-color: #FFFFFF;
+
     .sobre {
         display: flex;
         align-items: center;
         justify-content: space-around;
         flex-wrap: wrap;
         row-gap: 30px;
-        padding: 2.7rem;
-        background-color: #FFFFFF;
+        padding: 1rem;
 
         .sobre-section {
             display: flex;
@@ -15,7 +15,7 @@
             flex-direction: column;
             align-items: center;
             
-            padding: 30px 15px;
+            padding: 10px 15px;
             gap: 10px;
 
             width: 540px;
@@ -28,9 +28,8 @@
             &:hover {
                 cursor: pointer;
                 box-shadow: #977CED 0px 0px 12px;
-                transform: scale(1.02);
+                transform: scale(1.01);
             }
-        
             
             .icon {
                 width: 100px;
@@ -40,7 +39,6 @@
 
         h2 {
             font-style: normal;
-            font-weight: 800;
             font-size: 24px;
             line-height: 29px;
             text-align: center;
@@ -50,13 +48,57 @@
         
         p {
             font-style: normal;
-            font-weight: 400;
-            font-size: 15px;
+            font-size: 20px;
             line-height: 20px;
             text-align: center;
                 
             color: #24292E;
                 
         }
+
     }
+
+    /* estilos básicos para telas maiores */
+.values {
+    color: #120736;
+    padding: 20px;
+  }
+  
+  .values ul {
+    list-style: circle;
+  }
+  
+  .values li {
+    margin-left: 50px;
+  }
+  
+  .values h1 {
+    padding: 10px;
+    font-size: 50px;
+  }
+  
+  .values p {
+    display: flex;
+    font-size: 22px;
+  }
+  
+  /* estilos para telas menores */
+  @media screen and (max-width: 768px) {
+    .values {
+      padding: 10px;
+    }
+    
+    .values h1 {
+      font-size: 40px;
+    }
+    
+    .values p {
+      font-size: 18px;
+    }
+    
+    .values li {
+      margin-left: 30px;
+    }
+  }
+  
 }
