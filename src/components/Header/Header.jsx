@@ -3,27 +3,28 @@ import "./header.scss";
 import NavListHome from "./NavListHome";
 import NavListBlog from "./NavListBlog";
 
-export function Header({pag}) {
-    window.addEventListener('scroll',() => {
-        const header = document.querySelector('header');
-        header.classList.toggle('sticky',window.scrollY > 0);
+export function Header({ pag }) {
+  window.addEventListener("scroll", () => {
+    const header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  });
 
-    });
+  pag = pag.toLowerCase();
 
-    pag = pag.toLowerCase();
-
-    switch (pag) {
-        case 'home': return (
-            <header>
-                <NavListHome/>
-                <MobileMenu/>
-            </header>
-        );
-        case 'blog': return (
-            <header>
-                <NavListBlog/>
-                <MobileMenu/>
-            </header>
-        );
-    }
+  switch (pag) {
+    case "home":
+      return (
+        <header>
+          <NavListHome />
+          <MobileMenu />
+        </header>
+      );
+    case "blog":
+      return (
+        <header>
+          <NavListBlog />
+          <MobileMenu />
+        </header>
+      );
+  }
 }
