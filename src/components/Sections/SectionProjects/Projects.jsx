@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Border } from "../../Dialog/Border";
+import React from "react";
 
 export function Projects() {
   const tools = {
@@ -65,11 +66,11 @@ export function Projects() {
   const openText = (i) => {
     const handle = buttonState[i];
     setButtonState({ ...buttonState, [i]: !handle });
-    let txt = document.getElementById("p" + i);
-    let btn = document.getElementById("btn" + i);
+    let txt = document.querySelectorAll(".text");
+    let btn = document.querySelectorAll(".btn-project");
 
-    txt.classList.toggle("active");
-    btn.innerHTML = buttonState[i] ? "Ler menos" : "Ler mais";
+    txt[i].classList.toggle("active");
+    btn[i].innerHTML = buttonState[i] ? "Ler menos" : "Ler mais";
   };
 
   return (
@@ -83,19 +84,15 @@ export function Projects() {
             <div>
               <Border width={100} color={"#977CED"} />
             </div>
-            <p id={`p${index}`} className="text">
+            <div className="text">
               {project.p.map((p, i) => (
-                <p>
-                  <p key={i}>{p}</p>
+                <React.Fragment key={`paragraph-${i}`}>
+                  <p>{p}</p>
                   <br />
-                </p>
+                </React.Fragment>
               ))}
-            </p>
-            <button
-              id={`btn${index}`}
-              onClick={() => openText(index)}
-              className="btn-toggle"
-            >
+            </div>
+            <button onClick={() => openText(index)} className="btn-project">
               Ler mais
             </button>
             <div className="tools">

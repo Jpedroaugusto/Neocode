@@ -11,7 +11,6 @@ export default function NavListBlog() {
   function scrollToSection(event) {
     event.preventDefault();
     click++;
-    console.log(click);
     const distanceFromTheTop = getDistanceFromTheTop(event.target) - 70;
     if (click == 1) {
       smoothScrollTo(0, distanceFromTheTop, 1400);

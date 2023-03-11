@@ -13,7 +13,6 @@ export function SectionProjects() {
         colorh2="#977CED"
         subtitle="projetos"
         title="O que já desenvolvemos"
-        p=""
       />
 
       <Projects />

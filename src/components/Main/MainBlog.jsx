@@ -14,6 +14,7 @@ export function MainBlog() {
         title="O que é a NeoCode"
         subtitle="sobre"
         p="Duis suscipit nunc non eros tempus, eget tincidunt erat varius. Pellentesque nec eros efficitur, pretium nunc et, tempus mi. Suspendisse pharetra mi eu ipsum elementum."
+        img={false}
       />
       <SectionContact />
     </main>

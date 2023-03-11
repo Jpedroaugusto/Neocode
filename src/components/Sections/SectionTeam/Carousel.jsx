@@ -7,23 +7,24 @@ import React, { useEffect } from "react";
 import members from "./Members";
 
 export function Carousel() {
-  const slider = new Glide(".glide", {
-    type: "carousel",
-    focusAt: "center",
-    breakpoints: {
-      3200: {
-        perView: 3,
-      },
-      1100: {
-        perView: 2,
-      },
-      700: {
-        perView: 1,
-      },
-    },
-  });
-
+  
   useEffect(() => {
+    const slider = new Glide(".glide", {
+      type: "carousel",
+      focusAt: "center",
+      breakpoints: {
+        3200: {
+          perView: 3,
+        },
+        1100: {
+          perView: 2,
+        },
+        700: {
+          perView: 1,
+        },
+      },
+    });
+    
     return () => slider.mount();
   }, []);
 

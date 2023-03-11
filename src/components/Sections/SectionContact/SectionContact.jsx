@@ -25,7 +25,6 @@ export function SectionContact(props) {
         font-size="20"
         subtitle="contato"
         title="Fale com a gente"
-        p=""
       />
 
       <p className="p">

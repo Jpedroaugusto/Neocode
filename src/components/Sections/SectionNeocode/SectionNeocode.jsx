@@ -13,6 +13,9 @@ export function SectionNeocode() {
         title="O que é a NeoCode"
         subtitle="sobre"
         p="Somos uma provedora de soluções de software personalizadas para diversas indústrias, incluindo saúde, finanças, varejo e manufatura. Com uma abordagem centrada no cliente e um compromisso com a inovação e qualidade, a empresa utiliza tecnologias emergentes, como inteligência artificial, aprendizado de máquina, blockchain e computação em nuvem para criar soluções personalizadas e eficazes. A transparência na comunicação e a ética nas operações também são valores fundamentais desta empresa. Promovendo o trabalho em equipe, colaboração e comunicação, a empresa busca oferecer soluções mais eficientes e melhores aos clientes. Em resumo, somos uma empresa inovadora e comprometida com a satisfação do cliente, com valores éticos e um foco na qualidade."
+        btn={true}
+        img={true}
+        src="images/jpg/logo.jpeg"
       />
 
       <div className="sobre">

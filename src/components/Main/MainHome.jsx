@@ -10,6 +10,7 @@ export function MainHome() {
     <main>
       <SectionHome background="home" />
       <SectionNeocode />
+      <SectionTeam />
       <SectionServices />
       <SectionProjects />
       <SectionContact />
