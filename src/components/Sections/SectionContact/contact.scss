@@ -1,7 +1,7 @@
 #contact {
   display: flex;
   flex-direction: column;
-  height: 140vh;
+  height: 110vh;
   align-items: center;
   background-color: #24292e;
   padding: 10px;
@@ -26,8 +26,8 @@
   .box {
     position: relative;
     justify-content: center;
-    width: 60vw;
-    height: 450px;
+    width: 90vw;
+    height: 700px;
     background-color: #1c1c1c;
     border-radius: 8px;
     overflow: hidden;
@@ -36,28 +36,89 @@
     &::after {
       content: "";
       position: absolute;
-      top: -52%;
-      left: -10%;
+      top: -40vw;
+      left: -20vw;
 
-      width: 482px;
-      height: 482px;
+      width: 900px;
+      height: 900px;
       transform-origin: bottom right;
+
       background: #977ced;
-      animation: animate 6s linear infinite;
+      animation: animate 4s linear infinite;
     }
 
     &::after {
-      animation-delay: -3s;
+      animation-delay: -2s;
     }
 
-    @media (max-width) {
+    @media (max-width: 1100px) {
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        top: -44vw;
+        left: -22vw;
+
+        width: 700px;
+        height: 700px;
+        transform-origin: bottom right;
+
+        background: #977ced;
+        animation: animate 4s linear infinite;
+      }
+
+      &::after {
+        animation-delay: -2s;
+      }
+    }
+
+    @media (max-width: 700px) {
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        top: -42vw;
+        left: -55vw;
+
+        width: 100vw;
+        height: 63vh;
+        transform-origin: bottom right;
+
+        background: #977ced;
+        animation: animate 4s linear infinite;
+      }
+
+      &::after {
+        animation-delay: -2s;
+      }
+
+      @media (max-width: 700px) {
+        &::before,
+        &::after {
+          content: "";
+          position: absolute;
+          top: -32vw;
+          left: -55vw;
+
+          width: 100vw;
+          height: 63vh;
+          transform-origin: bottom right;
+
+          background: #977ced;
+          animation: animate 4s linear infinite;
+        }
+
+        &::after {
+          animation-delay: -2s;
+        }
+      }
     }
 
     form {
-      border: 0px;
       position: absolute;
       inset: 2px;
       border-radius: 8px;
+
       background-color: #28292d;
       display: flex;
       align-items: center;
@@ -67,7 +128,7 @@
 
       .inputs {
         position: relative;
-        width: 40vw;
+        width: 80vw;
         margin-top: 35px;
 
         textarea {
@@ -164,10 +225,10 @@
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1060px) {
     .box {
       width: 90vw;
-      height: 1000px;
+      height: 500px;
 
       form {
         border: 0px;
