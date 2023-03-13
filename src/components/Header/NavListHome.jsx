@@ -93,7 +93,7 @@ export default function NavListHome() {
           link="#contact"
           legend="contato"
         />
-        <Link type="text" behavior={true} link="/blog" legend="blog" />
+        <Link type="text" link="/blog" legend="blog" />
       </ul>
     </nav>
   );

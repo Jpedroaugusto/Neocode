@@ -92,12 +92,12 @@
         animation-delay: -2s;
       }
 
-      @media (max-width: 700px) {
+      @media (max-width: 500px) {
         &::before,
         &::after {
           content: "";
           position: absolute;
-          top: -32vw;
+          top: -130vw;
           left: -55vw;
 
           width: 100vw;

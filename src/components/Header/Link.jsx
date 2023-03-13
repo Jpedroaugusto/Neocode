@@ -12,7 +12,7 @@ export default function Link({ type, link, legend, src, onClick }) {
       );
     case "image":
       return (
-        <li key={key} className="item-list">
+        <li key={key} className="item-list image-list">
           <a className="link" onClick={onClick} href={link}>
             <img src={src} href={link} />
           </a>
